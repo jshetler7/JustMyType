@@ -116,6 +116,7 @@ $(document.body).keypress(function (evt) {
         letterIdx = 0;
         if (sentenceIdx === 4) {
             window.clearInterval(timer);
+            //number of words including spaces and punctuation.
             numberOfWords = 64;
             numberOfMistakes = mistakes;
             minutes = m + s/60;
